@@ -3,7 +3,6 @@ import os
 from PIL import Image
 import io
 import trimesh
-import pyrender
 import numpy as np
 import tempfile
 from utils.image_processing import convert_to_3d
@@ -13,7 +12,7 @@ from utils.text_to_3d import text_to_3d
 def save_mesh(mesh, filename):
     mesh.export(filename)
 
-# Function to visualize mesh using pyrender
+# Function to visualize mesh using matplotlib
 def visualize_mesh(mesh):
     import matplotlib.pyplot as plt
     from mpl_toolkits.mplot3d import Axes3D
