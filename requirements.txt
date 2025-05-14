@@ -1,0 +1,5 @@
+streamlit==1.32.0
+rembg==2.0.50
+Pillow==10.2.0
+trimesh==4.0.5
+pyrender==0.1.45 
